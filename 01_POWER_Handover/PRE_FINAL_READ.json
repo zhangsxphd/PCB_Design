@@ -1,8 +1,8 @@
 {
-  "id": "req_4887",
+  "id": "req_3623",
   "type": "response",
   "version": "v1",
-  "createdAt": "2026-09-27T13:40:56.330641Z",
+  "createdAt": "2026-09-27T13:21:24.821098Z",
   "ok": true,
   "result": {
     "check": {
@@ -22,13 +22,13 @@
         "zeroLengthWires": 0
       }
     },
-    "componentCount": 81,
+    "componentCount": 84,
     "components": [
       {
         "componentType": "sheet",
         "designator": "",
         "footprint": "",
-        "name": "Irrigation-C3 Mainboard V1 / 01_POWER_CLEAN",
+        "name": "",
         "pins": [],
         "primitiveId": "a3212c11e8f1ad72",
         "supplierId": "",
@@ -257,8 +257,8 @@
         "primitiveId": "199d63b2a2183f73",
         "supplierId": "C2071150",
         "uniqueId": "gge33",
-        "x": 720,
-        "y": 620
+        "x": 900,
+        "y": 720
       },
       {
         "componentType": "part",
@@ -284,8 +284,8 @@
         "primitiveId": "1ab15b25fb40029e",
         "supplierId": "C46634742",
         "uniqueId": "gge34",
-        "x": 840,
-        "y": 620
+        "x": 1020,
+        "y": 720
       },
       {
         "componentType": "part",
@@ -446,8 +446,8 @@
         "primitiveId": "bca203fe634b36f7",
         "supplierId": "C105212",
         "uniqueId": "gge43",
-        "x": 620,
-        "y": 620
+        "x": 800,
+        "y": 720
       },
       {
         "componentType": "part",
@@ -473,8 +473,8 @@
         "primitiveId": "d65f4bcd933702f3",
         "supplierId": "C105212",
         "uniqueId": "gge44",
-        "x": 930,
-        "y": 620
+        "x": 1110,
+        "y": 720
       },
       {
         "componentType": "part",
@@ -689,8 +689,8 @@
         "primitiveId": "62b8f814bf59ed78",
         "supplierId": "C23058",
         "uniqueId": "gge38",
-        "x": 900,
-        "y": 680
+        "x": 1080,
+        "y": 800
       },
       {
         "componentType": "part",
@@ -716,8 +716,8 @@
         "primitiveId": "2053403b61e4b0dc",
         "supplierId": "C25804",
         "uniqueId": "gge39",
-        "x": 580,
-        "y": 600
+        "x": 760,
+        "y": 700
       },
       {
         "componentType": "part",
@@ -855,6 +855,42 @@
         "y": 670
       },
       {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "96c7c9bb52255d98",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 800,
+        "y": 755
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "837eeaf2d5885a1a",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1110,
+        "y": 755
+      },
+      {
         "componentType": "netport",
         "designator": "",
         "footprint": "",
@@ -984,6 +1020,42 @@
         "componentType": "netport",
         "designator": "",
         "footprint": "",
+        "name": "U1_FB",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "e98a71e650d56194",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 750,
+        "y": 590
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "U1_FB",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "13588e9216be0f73",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 820,
+        "y": 600
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
         "name": "BUCK_5V",
         "pins": [
           {
@@ -1051,6 +1123,24 @@
         "uniqueId": "",
         "x": 750,
         "y": 520
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "BUCK_5V",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1221858385641a2c",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 820,
+        "y": 300
       },
       {
         "componentType": "netport",
@@ -1182,6 +1272,78 @@
         "componentType": "netport",
         "designator": "",
         "footprint": "",
+        "name": "LOGIC_5V",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "3793f5dc6472ad7c",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 800,
+        "y": 685
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "3V3",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "7fb5b828bc75381a",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1110,
+        "y": 685
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "3V3",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "87d37505c9afbba9",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1080,
+        "y": 760
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "U2_FB",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "75cfd740bdecfc54",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1080,
+        "y": 840
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
         "name": "12V_IN",
         "pins": [
           {
@@ -1195,6 +1357,24 @@
         "uniqueId": "",
         "x": 120,
         "y": 495
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "U2_SW",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d1c36797b301fe9f",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1060,
+        "y": 720
       },
       {
         "componentType": "netport",
@@ -1326,6 +1506,96 @@
         "componentType": "netport",
         "designator": "",
         "footprint": "",
+        "name": "LOGIC_5V",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "08d61c6755f36826",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1145,
+        "y": 710
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1212579cf00ff8ea",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 840,
+        "y": 720
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "LOGIC_5V",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "7336286baf285220",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 800,
+        "y": 730
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "U2_FB",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d8fb113fb91d9db8",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1110,
+        "y": 730
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "U2_SW",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "83e5c4b0442c2162",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 800,
+        "y": 710
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
         "name": "12V_PROTECTED",
         "pins": [
           {
@@ -1398,6 +1668,78 @@
         "componentType": "netport",
         "designator": "",
         "footprint": "",
+        "name": "12V_PROTECTED",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "efbf4641ca8eab2d",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 390,
+        "y": 380
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "bc1c111fec684451",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 390,
+        "y": 460
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "U2_FB",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "64436d1fd346c412",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 760,
+        "y": 640
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "0dfa8e4d1751e225",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 760,
+        "y": 760
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
         "name": "12V_IN",
         "pins": [
           {
@@ -1431,42 +1773,6 @@
         "y": 500
       },
       {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": "",
-        "name": "GND",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "ffba9147db84d855",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 620,
-        "y": 655
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "LOGIC_5V",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "3f46e77353d8956d",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 620,
-        "y": 585
-      },
-      {
         "componentType": "netport",
         "designator": "",
         "footprint": "",
@@ -1478,262 +1784,10 @@
             "number": "1"
           }
         ],
-        "primitiveId": "8f1ffa88620cc3e8",
+        "primitiveId": "ee02a5d856bb1d12",
         "supplierId": "",
         "uniqueId": "",
-        "x": 930,
-        "y": 585
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": "",
-        "name": "GND",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "eb3e0baf60c3ea25",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 930,
-        "y": 655
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "3V3",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "47066620da305f9e",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 800,
-        "y": 620
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "U2_SW",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "d9e19fdf39d13bff",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 880,
-        "y": 620
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": "",
-        "name": "GND",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "de260c15cfec2a7a",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 580,
-        "y": 660
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "U2_FB",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "e11bd2b2b8eb0c31",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 580,
-        "y": 540
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": "",
-        "name": "GND",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "13f85dbf9117cd83",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 660,
-        "y": 620
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "LOGIC_5V",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "abda4a3a8b257b05",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 620,
-        "y": 630
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "LOGIC_5V",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "9b6a2c4c87879966",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 965,
-        "y": 610
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "U2_FB",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "ca1cfb929f96d2fc",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 930,
-        "y": 630
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "U2_SW",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "3d1f2a50c3e5c401",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 620,
-        "y": 610
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "BUCK_5V",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "71771545d196d291",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 820,
-        "y": 300
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "U1_FB",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "b0078c69471bbff9",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 820,
-        "y": 600
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "3V3",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "8ad4d198cabc1387",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 900,
-        "y": 640
-      },
-      {
-        "componentType": "netport",
-        "designator": "",
-        "footprint": "",
-        "name": "U2_FB",
-        "pins": [
-          {
-            "name": "BI",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "308486500051bcd8",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 900,
+        "x": 980,
         "y": 720
       }
     ],
@@ -1914,6 +1968,6 @@
     "documentType": "schematic",
     "tabId": "87ed546cd346712f@d4435281a735090be6d4aa090ecbf2c0b3f457638362c94d712ae3b373abf430"
   },
-  "seq": 3460,
+  "seq": 2673,
   "seqAbandoned": 0
 }

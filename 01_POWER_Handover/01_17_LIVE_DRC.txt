@@ -1,0 +1,10 @@
+Live EasyEDA DRC evidence
+Project: Irrigation-C3_Mainboard_V1
+Page: 01_POWER_CLEAN
+Fatal = 0
+Error = 0
+Warning = 3
+Info = 0
+Allowed warning nets: PUMP_FUSE_OUT, SCALE_5V, USB_5V
+Unexpected DRC Warnings = 0
+DetailsAvailable = False

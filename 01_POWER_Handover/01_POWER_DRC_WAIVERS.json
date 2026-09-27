@@ -1,0 +1,8 @@
+{
+  "scope": "01_POWER_CLEAN page-level DRC",
+  "waivers": [
+    {"net":"PUMP_FUSE_OUT","type":"single-net-one-pin","status":"EXPECTED_INTERSHEET_WARNING","future_page":"04_PUMP_DRIVER","reason":"Downstream consumer not yet drawn"},
+    {"net":"SCALE_5V","type":"single-net-one-pin","status":"EXPECTED_INTERSHEET_WARNING","future_page":"03_RS485_SCALE","reason":"Downstream consumers not yet drawn"},
+    {"net":"USB_5V","type":"single-net-one-pin","status":"EXPECTED_INTERSHEET_WARNING","future_page":"02_ESP32_USB","reason":"Upstream USB VBUS source not yet drawn"}
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "id": "req_4892",
+  "id": "req_3628",
   "type": "response",
   "version": "v1",
-  "createdAt": "2026-09-27T13:41:20.253495Z",
+  "createdAt": "2026-09-27T13:21:47.187238Z",
   "ok": true,
   "result": {
     "components": [
@@ -23,11 +23,11 @@
         "componentType": "sheet",
         "device": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Irrigation-C3 Mainboard V1 / 01_POWER_CLEAN",
+          "name": "",
           "uuid": "be0e164d72f7b7f8"
         },
         "mirror": false,
-        "name": "Irrigation-C3 Mainboard V1 / 01_POWER_CLEAN",
+        "name": "",
         "net": "",
         "netlistAvailable": true,
         "otherProperty": {
@@ -41,13 +41,13 @@
           "@Project Name": "Irrigation-C3_Mainboard_V1",
           "@Schematic Name": "Schematic1",
           "@Update Date": "2026-09-27",
-          "@Update Time": "21:39:18",
+          "@Update Time": "20:43:40",
           "Blade Width": "10",
           "Border": "1",
           "Color": "",
           "Company": "嘉立创EDA",
-          "Description": "12V input protection and dual buck power tree; schematic-only release evidence",
-          "Drawed": "Codex",
+          "Description": "",
+          "Drawed": "",
           "Height": "825",
           "Page Size": "A4",
           "Part Number": "",
@@ -740,10 +740,10 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 750.5,
-          "maxY": 640.5,
-          "minX": 689.5,
-          "minY": 599.5
+          "maxX": 930.5,
+          "maxY": 740.5,
+          "minX": 869.5,
+          "minY": 699.5
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -811,8 +811,8 @@
             "pinNumber": "5",
             "primitiveId": "199d63b2a2183f73-e3",
             "rotation": 0,
-            "x": 760,
-            "y": 630
+            "x": 940,
+            "y": 730
           },
           {
             "net": "LOGIC_5V",
@@ -822,8 +822,8 @@
             "pinNumber": "4",
             "primitiveId": "199d63b2a2183f73-e7",
             "rotation": 0,
-            "x": 760,
-            "y": 610
+            "x": 940,
+            "y": 710
           },
           {
             "net": "U2_SW",
@@ -833,8 +833,8 @@
             "pinNumber": "3",
             "primitiveId": "199d63b2a2183f73-e11",
             "rotation": 180,
-            "x": 680,
-            "y": 610
+            "x": 860,
+            "y": 710
           },
           {
             "net": "GND",
@@ -844,8 +844,8 @@
             "pinNumber": "2",
             "primitiveId": "199d63b2a2183f73-e15",
             "rotation": 180,
-            "x": 680,
-            "y": 620
+            "x": 860,
+            "y": 720
           },
           {
             "net": "LOGIC_5V",
@@ -855,8 +855,8 @@
             "pinNumber": "1",
             "primitiveId": "199d63b2a2183f73-e19",
             "rotation": 180,
-            "x": 680,
-            "y": 630
+            "x": 860,
+            "y": 730
           }
         ],
         "pinsAvailable": true,
@@ -876,17 +876,17 @@
           "uuid": "eb4eb886003784e1"
         },
         "uniqueId": "gge33",
-        "x": 720,
-        "y": 620
+        "x": 900,
+        "y": 720
       },
       {
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 856.5000499996993,
-          "maxY": 624.5000499997003,
-          "minX": 823.5000062498829,
-          "minY": 619.9775000312485
+          "maxX": 1036.5000499996984,
+          "maxY": 724.5000499997085,
+          "minX": 1003.5000062498829,
+          "minY": 719.9775000312475
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -946,8 +946,8 @@
             "pinNumber": "2",
             "primitiveId": "1ab15b25fb40029e-e0",
             "rotation": 0,
-            "x": 860,
-            "y": 620
+            "x": 1040,
+            "y": 720
           },
           {
             "net": "3V3",
@@ -957,8 +957,8 @@
             "pinNumber": "1",
             "primitiveId": "1ab15b25fb40029e-e4",
             "rotation": 180,
-            "x": 820,
-            "y": 620
+            "x": 1000,
+            "y": 720
           }
         ],
         "pinsAvailable": true,
@@ -978,8 +978,8 @@
           "uuid": "7ee6fe8c1946c994"
         },
         "uniqueId": "gge34",
-        "x": 840,
-        "y": 620
+        "x": 1020,
+        "y": 720
       },
       {
         "addIntoBom": true,
@@ -1247,8 +1247,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "10uF",
-          "Voltage Rating": "50V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1347,8 +1347,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "100nF",
-          "Voltage Rating": "50V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1447,8 +1447,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "100nF",
-          "Voltage Rating": "50V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1498,10 +1498,10 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 628.5,
-          "maxY": 625.5,
-          "minX": 611.5,
-          "minY": 614.5
+          "maxX": 808.5,
+          "maxY": 725.5,
+          "minX": 791.5,
+          "minY": 714.5
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -1547,8 +1547,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "22uF",
-          "Voltage Rating": "16V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1559,8 +1559,8 @@
             "pinNumber": "1",
             "primitiveId": "bca203fe634b36f7-e5",
             "rotation": 270,
-            "x": 620,
-            "y": 605
+            "x": 800,
+            "y": 705
           },
           {
             "net": "GND",
@@ -1570,8 +1570,8 @@
             "pinNumber": "2",
             "primitiveId": "bca203fe634b36f7-e9",
             "rotation": 90,
-            "x": 620,
-            "y": 635
+            "x": 800,
+            "y": 735
           }
         ],
         "pinsAvailable": true,
@@ -1591,17 +1591,17 @@
           "uuid": "45f199a23151d994"
         },
         "uniqueId": "gge43",
-        "x": 620,
-        "y": 620
+        "x": 800,
+        "y": 720
       },
       {
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 938.5,
-          "maxY": 625.5,
-          "minX": 921.5,
-          "minY": 614.5
+          "maxX": 1118.5,
+          "maxY": 725.5,
+          "minX": 1101.5,
+          "minY": 714.5
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -1647,8 +1647,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "22uF",
-          "Voltage Rating": "16V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1659,8 +1659,8 @@
             "pinNumber": "1",
             "primitiveId": "d65f4bcd933702f3-e5",
             "rotation": 270,
-            "x": 930,
-            "y": 605
+            "x": 1110,
+            "y": 705
           },
           {
             "net": "GND",
@@ -1670,8 +1670,8 @@
             "pinNumber": "2",
             "primitiveId": "d65f4bcd933702f3-e9",
             "rotation": 90,
-            "x": 930,
-            "y": 635
+            "x": 1110,
+            "y": 735
           }
         ],
         "pinsAvailable": true,
@@ -1691,8 +1691,8 @@
           "uuid": "45f199a23151d994"
         },
         "uniqueId": "gge44",
-        "x": 930,
-        "y": 620
+        "x": 1110,
+        "y": 720
       },
       {
         "addIntoBom": true,
@@ -1747,8 +1747,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "22uF",
-          "Voltage Rating": "16V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1847,8 +1847,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "22uF",
-          "Voltage Rating": "16V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -1947,8 +1947,8 @@
           "Supplier Footprint": "",
           "Temperature Coefficient": "",
           "Tolerance": "",
-          "Value": "75pF",
-          "Voltage Rating": "50V"
+          "Value": "",
+          "Voltage Rating": ""
         },
         "pins": [
           {
@@ -2415,10 +2415,10 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 904.5,
-          "maxY": 690.5,
-          "minX": 895.5,
-          "minY": 669.5
+          "maxX": 1084.5,
+          "maxY": 810.5,
+          "minX": 1075.5,
+          "minY": 789.5
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -2479,8 +2479,8 @@
             "pinNumber": "2",
             "primitiveId": "62b8f814bf59ed78-e3",
             "rotation": 90,
-            "x": 900,
-            "y": 700
+            "x": 1080,
+            "y": 820
           },
           {
             "net": "3V3",
@@ -2490,8 +2490,8 @@
             "pinNumber": "1",
             "primitiveId": "62b8f814bf59ed78-e7",
             "rotation": 270,
-            "x": 900,
-            "y": 660
+            "x": 1080,
+            "y": 780
           }
         ],
         "pinsAvailable": true,
@@ -2511,17 +2511,17 @@
           "uuid": "8e2465beb0f00b31"
         },
         "uniqueId": "gge38",
-        "x": 900,
-        "y": 680
+        "x": 1080,
+        "y": 800
       },
       {
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 584.5,
-          "maxY": 610.5,
-          "minX": 575.5,
-          "minY": 589.5
+          "maxX": 764.5,
+          "maxY": 710.5,
+          "minX": 755.5,
+          "minY": 689.5
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -2582,8 +2582,8 @@
             "pinNumber": "2",
             "primitiveId": "2053403b61e4b0dc-e3",
             "rotation": 90,
-            "x": 580,
-            "y": 620
+            "x": 760,
+            "y": 720
           },
           {
             "net": "U2_FB",
@@ -2593,8 +2593,8 @@
             "pinNumber": "1",
             "primitiveId": "2053403b61e4b0dc-e7",
             "rotation": 270,
-            "x": 580,
-            "y": 580
+            "x": 760,
+            "y": 680
           }
         ],
         "pinsAvailable": true,
@@ -2614,8 +2614,8 @@
           "uuid": "268eec59a907d05f"
         },
         "uniqueId": "gge39",
-        "x": 580,
-        "y": 600
+        "x": 760,
+        "y": 700
       },
       {
         "addIntoBom": true,
@@ -3048,6 +3048,114 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
+          "maxX": 810.4999999999999,
+          "maxY": 774.5000000000001,
+          "minX": 789.4999999999999,
+          "minY": 764.5000000000001
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "Pin1",
+            "pinNumber": "1",
+            "primitiveId": "96c7c9bb52255d98-e15",
+            "rotation": 270,
+            "x": 799.9999999999999,
+            "y": 755.0000000000001
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "96c7c9bb52255d98",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "da0cc76b9cd62833"
+        },
+        "x": 800,
+        "y": 755
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 1120.5,
+          "maxY": 774.5000000000001,
+          "minX": 1099.5,
+          "minY": 764.5000000000001
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "Pin1",
+            "pinNumber": "1",
+            "primitiveId": "837eeaf2d5885a1a-e15",
+            "rotation": 270,
+            "x": 1110,
+            "y": 755.0000000000001
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "837eeaf2d5885a1a",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "da0cc76b9cd62833"
+        },
+        "x": 1110,
+        "y": 755
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
           "maxX": 425.5,
           "maxY": 405.49999999999994,
           "minX": 414.5,
@@ -3419,6 +3527,112 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
+          "maxX": 755.5,
+          "maxY": 580.4999999999999,
+          "minX": 744.5,
+          "minY": 549.4999999999999
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U1_FB",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U1_FB",
+        "net": "U1_FB",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "e98a71e650d56194-e11",
+            "rotation": 90,
+            "x": 750,
+            "y": 589.9999999999999
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "e98a71e650d56194",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 750,
+        "y": 590
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 825.5,
+          "maxY": 640.5,
+          "minX": 814.5,
+          "minY": 609.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U1_FB",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U1_FB",
+        "net": "U1_FB",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "13588e9216be0f73-e11",
+            "rotation": 270,
+            "x": 820,
+            "y": 600
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "13588e9216be0f73",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 820,
+        "y": 600
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
           "maxX": 820.5,
           "maxY": 505.5,
           "minX": 789.5,
@@ -3626,6 +3840,59 @@
         },
         "x": 750,
         "y": 520
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 825.5,
+          "maxY": 290.5,
+          "minX": 814.5,
+          "minY": 259.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "BUCK_5V",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "BUCK_5V",
+        "net": "BUCK_5V",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "1221858385641a2c-e11",
+            "rotation": 90,
+            "x": 820,
+            "y": 300
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "1221858385641a2c",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 820,
+        "y": 300
       },
       {
         "addIntoBom": true,
@@ -4002,6 +4269,218 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
+          "maxX": 805.5,
+          "maxY": 675.4999999999999,
+          "minX": 794.5,
+          "minY": 644.4999999999999
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "LOGIC_5V",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "LOGIC_5V",
+        "net": "LOGIC_5V",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "3793f5dc6472ad7c-e11",
+            "rotation": 90,
+            "x": 800,
+            "y": 684.9999999999999
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "3793f5dc6472ad7c",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 800,
+        "y": 685
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 1115.5,
+          "maxY": 675.5,
+          "minX": 1104.5,
+          "minY": 644.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "3V3",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "3V3",
+        "net": "3V3",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "7fb5b828bc75381a-e11",
+            "rotation": 90,
+            "x": 1110,
+            "y": 685
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "7fb5b828bc75381a",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 1110,
+        "y": 685
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 1085.5,
+          "maxY": 750.5,
+          "minX": 1074.5,
+          "minY": 719.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "3V3",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "3V3",
+        "net": "3V3",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "87d37505c9afbba9-e11",
+            "rotation": 90,
+            "x": 1080,
+            "y": 760
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "87d37505c9afbba9",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 1080,
+        "y": 760
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 1085.5,
+          "maxY": 880.5,
+          "minX": 1074.5,
+          "minY": 849.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U2_FB",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U2_FB",
+        "net": "U2_FB",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "75cfd740bdecfc54-e11",
+            "rotation": 270,
+            "x": 1080,
+            "y": 840
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "75cfd740bdecfc54",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 1080,
+        "y": 840
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
           "maxX": 160.5,
           "maxY": 500.5,
           "minX": 129.5,
@@ -4050,6 +4529,59 @@
         },
         "x": 120,
         "y": 495
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 1100.5,
+          "maxY": 725.5,
+          "minX": 1069.5,
+          "minY": 714.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U2_SW",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U2_SW",
+        "net": "U2_SW",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "d1c36797b301fe9f-e11",
+            "rotation": 180,
+            "x": 1060,
+            "y": 720
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "d1c36797b301fe9f",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 1060,
+        "y": 720
       },
       {
         "addIntoBom": true,
@@ -4428,6 +4960,272 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
+          "maxX": 1185.5,
+          "maxY": 715.5,
+          "minX": 1154.5,
+          "minY": 704.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "LOGIC_5V",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "LOGIC_5V",
+        "net": "LOGIC_5V",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "08d61c6755f36826-e11",
+            "rotation": 180,
+            "x": 1145,
+            "y": 710
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "08d61c6755f36826",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 1145,
+        "y": 710
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 830.5,
+          "maxY": 730.4999999999999,
+          "minX": 820.5,
+          "minY": 709.4999999999999
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "Pin1",
+            "pinNumber": "1",
+            "primitiveId": "1212579cf00ff8ea-e15",
+            "rotation": 0,
+            "x": 840,
+            "y": 719.9999999999999
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "1212579cf00ff8ea",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "da0cc76b9cd62833"
+        },
+        "x": 840,
+        "y": 720
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 790.4999999999999,
+          "maxY": 735.5000000000001,
+          "minX": 759.4999999999999,
+          "minY": 724.5000000000001
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "LOGIC_5V",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "LOGIC_5V",
+        "net": "LOGIC_5V",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "7336286baf285220-e11",
+            "rotation": 0,
+            "x": 799.9999999999999,
+            "y": 730.0000000000001
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "7336286baf285220",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 800,
+        "y": 730
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 1150.5,
+          "maxY": 735.5,
+          "minX": 1119.5,
+          "minY": 724.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U2_FB",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U2_FB",
+        "net": "U2_FB",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "d8fb113fb91d9db8-e11",
+            "rotation": 180,
+            "x": 1110,
+            "y": 730
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "d8fb113fb91d9db8",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 1110,
+        "y": 730
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 790.4999999999999,
+          "maxY": 715.5000000000001,
+          "minX": 759.4999999999999,
+          "minY": 704.5000000000001
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U2_SW",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U2_SW",
+        "net": "U2_SW",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "83e5c4b0442c2162-e11",
+            "rotation": 0,
+            "x": 799.9999999999999,
+            "y": 710.0000000000001
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "83e5c4b0442c2162",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 800,
+        "y": 710
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
           "maxX": 360.5,
           "maxY": 505.5,
           "minX": 329.5,
@@ -4641,6 +5439,220 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
+          "maxX": 395.5,
+          "maxY": 370.49999999999994,
+          "minX": 384.5,
+          "minY": 339.49999999999994
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "12V_PROTECTED",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "12V_PROTECTED",
+        "net": "12V_PROTECTED",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "efbf4641ca8eab2d-e11",
+            "rotation": 90,
+            "x": 390,
+            "y": 379.99999999999994
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "efbf4641ca8eab2d",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 390,
+        "y": 380
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 400.49999999999994,
+          "maxY": 479.50000000000006,
+          "minX": 379.49999999999994,
+          "minY": 469.50000000000006
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "Pin1",
+            "pinNumber": "1",
+            "primitiveId": "bc1c111fec684451-e15",
+            "rotation": 270,
+            "x": 389.99999999999994,
+            "y": 460.00000000000006
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "bc1c111fec684451",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "da0cc76b9cd62833"
+        },
+        "x": 390,
+        "y": 460
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 765.5,
+          "maxY": 630.4999999999999,
+          "minX": 754.5,
+          "minY": 599.4999999999999
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "85ffb60c15c81607"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "U2_FB",
+          "uuid": "85ffb60c15c81607"
+        },
+        "mirror": false,
+        "name": "U2_FB",
+        "net": "U2_FB",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "BI",
+            "pinNumber": "1",
+            "primitiveId": "64436d1fd346c412-e11",
+            "rotation": 90,
+            "x": 760,
+            "y": 639.9999999999999
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "64436d1fd346c412",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "f10ef7fc9a2ac3c2"
+        },
+        "x": 760,
+        "y": 640
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 770.4999999999999,
+          "maxY": 779.5000000000001,
+          "minX": 749.4999999999999,
+          "minY": 769.5000000000001
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "a07e41135e3e655f"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "pins": [
+          {
+            "net": null,
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "Pin1",
+            "pinNumber": "1",
+            "primitiveId": "0dfa8e4d1751e225-e15",
+            "rotation": 270,
+            "x": 759.9999999999999,
+            "y": 760.0000000000001
+          }
+        ],
+        "pinsAvailable": true,
+        "primitiveId": "0dfa8e4d1751e225",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "da0cc76b9cd62833"
+        },
+        "x": 760,
+        "y": 760
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
           "maxX": 120.5,
           "maxY": 505.5,
           "minX": 89.5,
@@ -4747,117 +5759,10 @@
         "addIntoBom": true,
         "addIntoPcb": true,
         "bbox": {
-          "maxX": 630.4999999999999,
-          "maxY": 674.5000000000001,
-          "minX": 609.4999999999999,
-          "minY": 664.5000000000001
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "componentType": "netflag",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "mirror": false,
-        "name": "GND",
-        "net": "GND",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "",
-          "Global Net Name": "GND",
-          "Relevance": "[]"
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "Pin1",
-            "pinNumber": "1",
-            "primitiveId": "ffba9147db84d855-e15",
-            "rotation": 270,
-            "x": 619.9999999999999,
-            "y": 655.0000000000001
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "ffba9147db84d855",
-        "rotation": 180,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "da0cc76b9cd62833"
-        },
-        "x": 620,
-        "y": 655
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 625.5,
-          "maxY": 575.4999999999999,
-          "minX": 614.5,
-          "minY": 544.4999999999999
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "LOGIC_5V",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "LOGIC_5V",
-        "net": "LOGIC_5V",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "3f46e77353d8956d-e11",
-            "rotation": 90,
-            "x": 620,
-            "y": 584.9999999999999
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "3f46e77353d8956d",
-        "rotation": 270,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 620,
-        "y": 585
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 935.5,
-          "maxY": 575.4999999999999,
-          "minX": 924.5,
-          "minY": 544.4999999999999
+          "maxX": 970.4999999999999,
+          "maxY": 725.5000000000001,
+          "minX": 939.4999999999999,
+          "minY": 714.5000000000001
         },
         "component": {
           "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
@@ -4885,121 +5790,14 @@
             "otherProperty": {},
             "pinName": "BI",
             "pinNumber": "1",
-            "primitiveId": "8f1ffa88620cc3e8-e11",
-            "rotation": 90,
-            "x": 930,
-            "y": 584.9999999999999
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "8f1ffa88620cc3e8",
-        "rotation": 270,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 930,
-        "y": 585
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 940.4999999999999,
-          "maxY": 674.5000000000001,
-          "minX": 919.4999999999999,
-          "minY": 664.5000000000001
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "componentType": "netflag",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "mirror": false,
-        "name": "GND",
-        "net": "GND",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "",
-          "Global Net Name": "GND",
-          "Relevance": "[]"
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "Pin1",
-            "pinNumber": "1",
-            "primitiveId": "eb3e0baf60c3ea25-e15",
-            "rotation": 270,
-            "x": 929.9999999999999,
-            "y": 655.0000000000001
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "eb3e0baf60c3ea25",
-        "rotation": 180,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "da0cc76b9cd62833"
-        },
-        "x": 930,
-        "y": 655
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 790.4999999999999,
-          "maxY": 625.5000000000001,
-          "minX": 759.4999999999999,
-          "minY": 614.5000000000001
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "3V3",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "3V3",
-        "net": "3V3",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "47066620da305f9e-e11",
+            "primitiveId": "ee02a5d856bb1d12-e11",
             "rotation": 0,
-            "x": 799.9999999999999,
-            "y": 620.0000000000001
+            "x": 979.9999999999999,
+            "y": 720.0000000000001
           }
         ],
         "pinsAvailable": true,
-        "primitiveId": "47066620da305f9e",
+        "primitiveId": "ee02a5d856bb1d12",
         "rotation": 180,
         "subPartName": "pid8a0e77bacb214e",
         "symbol": {
@@ -5007,658 +5805,20 @@
           "name": "Netport-BI",
           "uuid": "f10ef7fc9a2ac3c2"
         },
-        "x": 800,
-        "y": 620
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 920.5,
-          "maxY": 625.5,
-          "minX": 889.5,
-          "minY": 614.5
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "U2_SW",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "U2_SW",
-        "net": "U2_SW",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "d9e19fdf39d13bff-e11",
-            "rotation": 180,
-            "x": 880,
-            "y": 620
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "d9e19fdf39d13bff",
-        "rotation": 0,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 880,
-        "y": 620
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 590.4999999999999,
-          "maxY": 679.5000000000001,
-          "minX": 569.4999999999999,
-          "minY": 669.5000000000001
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "componentType": "netflag",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "mirror": false,
-        "name": "GND",
-        "net": "GND",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "",
-          "Global Net Name": "GND",
-          "Relevance": "[]"
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "Pin1",
-            "pinNumber": "1",
-            "primitiveId": "de260c15cfec2a7a-e15",
-            "rotation": 270,
-            "x": 579.9999999999999,
-            "y": 660.0000000000001
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "de260c15cfec2a7a",
-        "rotation": 180,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "da0cc76b9cd62833"
-        },
-        "x": 580,
-        "y": 660
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 585.5,
-          "maxY": 530.4999999999999,
-          "minX": 574.5,
-          "minY": 499.4999999999999
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "U2_FB",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "U2_FB",
-        "net": "U2_FB",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "e11bd2b2b8eb0c31-e11",
-            "rotation": 90,
-            "x": 580,
-            "y": 539.9999999999999
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "e11bd2b2b8eb0c31",
-        "rotation": 270,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 580,
-        "y": 540
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 650.5,
-          "maxY": 630.4999999999999,
-          "minX": 640.5,
-          "minY": 609.4999999999999
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "componentType": "netflag",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "GND",
-          "uuid": "a07e41135e3e655f"
-        },
-        "mirror": false,
-        "name": "GND",
-        "net": "GND",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "",
-          "Global Net Name": "GND",
-          "Relevance": "[]"
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "Pin1",
-            "pinNumber": "1",
-            "primitiveId": "13f85dbf9117cd83-e15",
-            "rotation": 0,
-            "x": 660,
-            "y": 619.9999999999999
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "13f85dbf9117cd83",
-        "rotation": 270,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Ground-GND",
-          "uuid": "da0cc76b9cd62833"
-        },
-        "x": 660,
-        "y": 620
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 610.4999999999999,
-          "maxY": 635.5000000000001,
-          "minX": 579.4999999999999,
-          "minY": 624.5000000000001
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "LOGIC_5V",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "LOGIC_5V",
-        "net": "LOGIC_5V",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "abda4a3a8b257b05-e11",
-            "rotation": 0,
-            "x": 619.9999999999999,
-            "y": 630.0000000000001
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "abda4a3a8b257b05",
-        "rotation": 180,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 620,
-        "y": 630
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 1005.5,
-          "maxY": 615.5,
-          "minX": 974.5,
-          "minY": 604.5
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "LOGIC_5V",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "LOGIC_5V",
-        "net": "LOGIC_5V",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "9b6a2c4c87879966-e11",
-            "rotation": 180,
-            "x": 965,
-            "y": 610
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "9b6a2c4c87879966",
-        "rotation": 0,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 965,
-        "y": 610
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 970.5,
-          "maxY": 635.5,
-          "minX": 939.5,
-          "minY": 624.5
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "U2_FB",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "U2_FB",
-        "net": "U2_FB",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "ca1cfb929f96d2fc-e11",
-            "rotation": 180,
-            "x": 930,
-            "y": 630
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "ca1cfb929f96d2fc",
-        "rotation": 0,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 930,
-        "y": 630
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 610.4999999999999,
-          "maxY": 615.5000000000001,
-          "minX": 579.4999999999999,
-          "minY": 604.5000000000001
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "U2_SW",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "U2_SW",
-        "net": "U2_SW",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "3d1f2a50c3e5c401-e11",
-            "rotation": 0,
-            "x": 619.9999999999999,
-            "y": 610.0000000000001
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "3d1f2a50c3e5c401",
-        "rotation": 180,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 620,
-        "y": 610
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 825.5,
-          "maxY": 290.5,
-          "minX": 814.5,
-          "minY": 259.5
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "BUCK_5V",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "BUCK_5V",
-        "net": "BUCK_5V",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "71771545d196d291-e11",
-            "rotation": 90,
-            "x": 820,
-            "y": 300
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "71771545d196d291",
-        "rotation": 270,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 820,
-        "y": 300
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 825.5,
-          "maxY": 640.5,
-          "minX": 814.5,
-          "minY": 609.5
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "U1_FB",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "U1_FB",
-        "net": "U1_FB",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "b0078c69471bbff9-e11",
-            "rotation": 270,
-            "x": 820,
-            "y": 600
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "b0078c69471bbff9",
-        "rotation": 90,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 820,
-        "y": 600
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 905.5,
-          "maxY": 630.4999999999999,
-          "minX": 894.5,
-          "minY": 599.4999999999999
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "3V3",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "3V3",
-        "net": "3V3",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "8ad4d198cabc1387-e11",
-            "rotation": 90,
-            "x": 900,
-            "y": 639.9999999999999
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "8ad4d198cabc1387",
-        "rotation": 270,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 900,
-        "y": 640
-      },
-      {
-        "addIntoBom": true,
-        "addIntoPcb": true,
-        "bbox": {
-          "maxX": 905.5,
-          "maxY": 760.5,
-          "minX": 894.5,
-          "minY": 729.5
-        },
-        "component": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "85ffb60c15c81607"
-        },
-        "componentType": "netport",
-        "device": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "U2_FB",
-          "uuid": "85ffb60c15c81607"
-        },
-        "mirror": false,
-        "name": "U2_FB",
-        "net": "U2_FB",
-        "netlistAvailable": true,
-        "otherProperty": {
-          "Description": "Netport-BI",
-          "Relevance": ""
-        },
-        "pins": [
-          {
-            "net": null,
-            "noConnected": false,
-            "otherProperty": {},
-            "pinName": "BI",
-            "pinNumber": "1",
-            "primitiveId": "308486500051bcd8-e11",
-            "rotation": 270,
-            "x": 900,
-            "y": 720
-          }
-        ],
-        "pinsAvailable": true,
-        "primitiveId": "308486500051bcd8",
-        "rotation": 90,
-        "subPartName": "pid8a0e77bacb214e",
-        "symbol": {
-          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
-          "name": "Netport-BI",
-          "uuid": "f10ef7fc9a2ac3c2"
-        },
-        "x": 900,
+        "x": 980,
         "y": 720
       }
     ],
     "connectivitySummary": {
       "buses": 0,
-      "netflags": 13,
+      "netflags": 14,
       "netlabels": 0,
-      "netports": 42,
+      "netports": 44,
       "scope": "activePage",
       "shortSymbols": 0,
       "wires": 55
     },
-    "count": 81,
+    "count": 84,
     "pinNetsAvailable": true,
     "wires": [
       {
@@ -5756,6 +5916,38 @@
         "x1": 750,
         "y0": 670,
         "y1": 650
+      },
+      {
+        "net": "",
+        "primitiveId": "af0e6c7afab437d7",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          800,
+          755,
+          800,
+          735
+        ],
+        "segmentIndex": 0,
+        "x0": 800,
+        "x1": 800,
+        "y0": 755,
+        "y1": 735
+      },
+      {
+        "net": "",
+        "primitiveId": "ca425a668b79967f",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1110,
+          755,
+          1110,
+          735
+        ],
+        "segmentIndex": 0,
+        "x0": 1110,
+        "x1": 1110,
+        "y0": 755,
+        "y1": 735
       },
       {
         "net": "",
@@ -5865,7 +6057,11 @@
           750,
           600,
           750,
-          580
+          589.9999999999999,
+          750,
+          580,
+          750,
+          589.9999999999999
         ],
         "segmentIndex": 0,
         "x0": 750,
@@ -5885,11 +6081,55 @@
           750,
           600,
           750,
-          580
+          589.9999999999999,
+          750,
+          580,
+          750,
+          589.9999999999999
         ],
         "segmentIndex": 1,
         "x0": 750,
         "x1": 750,
+        "y0": 600,
+        "y1": 589.9999999999999
+      },
+      {
+        "net": "",
+        "primitiveId": "ee74d7d669e1b042",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          750,
+          610,
+          750,
+          600,
+          750,
+          600,
+          750,
+          589.9999999999999,
+          750,
+          580,
+          750,
+          589.9999999999999
+        ],
+        "segmentIndex": 2,
+        "x0": 750,
+        "x1": 750,
+        "y0": 580,
+        "y1": 589.9999999999999
+      },
+      {
+        "net": "",
+        "primitiveId": "5f4c637fad0b87c6",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          820,
+          600,
+          820,
+          580
+        ],
+        "segmentIndex": 0,
+        "x0": 820,
+        "x1": 820,
         "y0": 600,
         "y1": 580
       },
@@ -5955,6 +6195,22 @@
         "x0": 750,
         "x1": 750,
         "y0": 520,
+        "y1": 540
+      },
+      {
+        "net": "",
+        "primitiveId": "5c2a6b93a6e3d247",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          820,
+          300,
+          820,
+          540
+        ],
+        "segmentIndex": 0,
+        "x0": 820,
+        "x1": 820,
+        "y0": 300,
         "y1": 540
       },
       {
@@ -6071,6 +6327,70 @@
       },
       {
         "net": "",
+        "primitiveId": "025237243174e351",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          800,
+          685,
+          800,
+          705
+        ],
+        "segmentIndex": 0,
+        "x0": 800,
+        "x1": 800,
+        "y0": 685,
+        "y1": 705
+      },
+      {
+        "net": "",
+        "primitiveId": "9402803d26083ab3",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1110,
+          685,
+          1110,
+          705
+        ],
+        "segmentIndex": 0,
+        "x0": 1110,
+        "x1": 1110,
+        "y0": 685,
+        "y1": 705
+      },
+      {
+        "net": "",
+        "primitiveId": "50d0ab9bbc9c1b0a",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1080,
+          760,
+          1080,
+          780
+        ],
+        "segmentIndex": 0,
+        "x0": 1080,
+        "x1": 1080,
+        "y0": 760,
+        "y1": 780
+      },
+      {
+        "net": "",
+        "primitiveId": "96417c3b200e6a2c",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1080,
+          840,
+          1080,
+          820
+        ],
+        "segmentIndex": 0,
+        "x0": 1080,
+        "x1": 1080,
+        "y0": 840,
+        "y1": 820
+      },
+      {
+        "net": "",
         "primitiveId": "c57229cd003c5847",
         "rawEncoding": "flat-segments",
         "rawLine": [
@@ -6084,6 +6404,22 @@
         "x1": 100,
         "y0": 495,
         "y1": 495
+      },
+      {
+        "net": "",
+        "primitiveId": "8c51dd42b8546459",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1060,
+          720,
+          1040,
+          720
+        ],
+        "segmentIndex": 0,
+        "x0": 1060,
+        "x1": 1040,
+        "y0": 720,
+        "y1": 720
       },
       {
         "net": "",
@@ -6199,6 +6535,86 @@
       },
       {
         "net": "",
+        "primitiveId": "39b729706e37e7ea",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1145,
+          710,
+          940,
+          710
+        ],
+        "segmentIndex": 0,
+        "x0": 1145,
+        "x1": 940,
+        "y0": 710,
+        "y1": 710
+      },
+      {
+        "net": "",
+        "primitiveId": "23e2a9219569bd19",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          840,
+          720,
+          860,
+          720
+        ],
+        "segmentIndex": 0,
+        "x0": 840,
+        "x1": 860,
+        "y0": 720,
+        "y1": 720
+      },
+      {
+        "net": "",
+        "primitiveId": "e536e1649ba8b7cf",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          800,
+          730,
+          860,
+          730
+        ],
+        "segmentIndex": 0,
+        "x0": 800,
+        "x1": 860,
+        "y0": 730,
+        "y1": 730
+      },
+      {
+        "net": "",
+        "primitiveId": "cd61311f7c0e9430",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          1110,
+          730,
+          940,
+          730
+        ],
+        "segmentIndex": 0,
+        "x0": 1110,
+        "x1": 940,
+        "y0": 730,
+        "y1": 730
+      },
+      {
+        "net": "",
+        "primitiveId": "47f8ef14e5f0a8ff",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          800,
+          710,
+          860,
+          710
+        ],
+        "segmentIndex": 0,
+        "x0": 800,
+        "x1": 860,
+        "y0": 710,
+        "y1": 710
+      },
+      {
+        "net": "",
         "primitiveId": "d542bca9d7c409a6",
         "rawEncoding": "flat-segments",
         "rawLine": [
@@ -6236,14 +6652,38 @@
         "rawLine": [
           390,
           440,
+          389.99999999999994,
+          460.00000000000006,
           390,
-          505
+          505,
+          389.99999999999994,
+          460.00000000000006
         ],
         "segmentIndex": 0,
         "x0": 390,
-        "x1": 390,
+        "x1": 389.99999999999994,
         "y0": 440,
-        "y1": 505
+        "y1": 460.00000000000006
+      },
+      {
+        "net": "",
+        "primitiveId": "d93becee132323f0",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          390,
+          440,
+          389.99999999999994,
+          460.00000000000006,
+          390,
+          505,
+          389.99999999999994,
+          460.00000000000006
+        ],
+        "segmentIndex": 1,
+        "x0": 390,
+        "x1": 389.99999999999994,
+        "y0": 505,
+        "y1": 460.00000000000006
       },
       {
         "net": "",
@@ -6260,6 +6700,38 @@
         "x1": 390,
         "y0": 380,
         "y1": 400
+      },
+      {
+        "net": "",
+        "primitiveId": "d0e45fd68245a0de",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          760,
+          640,
+          760,
+          680
+        ],
+        "segmentIndex": 0,
+        "x0": 760,
+        "x1": 760,
+        "y0": 640,
+        "y1": 680
+      },
+      {
+        "net": "",
+        "primitiveId": "71ce323191066489",
+        "rawEncoding": "flat-segments",
+        "rawLine": [
+          760,
+          760,
+          760,
+          720
+        ],
+        "segmentIndex": 0,
+        "x0": 760,
+        "x1": 760,
+        "y0": 760,
+        "y1": 720
       },
       {
         "net": "",
@@ -6295,275 +6767,19 @@
       },
       {
         "net": "",
-        "primitiveId": "702e0a5922197ff2",
+        "primitiveId": "afcbf153c391f06a",
         "rawEncoding": "flat-segments",
         "rawLine": [
-          620,
-          655,
-          620,
-          635
-        ],
-        "segmentIndex": 0,
-        "x0": 620,
-        "x1": 620,
-        "y0": 655,
-        "y1": 635
-      },
-      {
-        "net": "",
-        "primitiveId": "4170aef36ca4c787",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          620,
-          585,
-          620,
-          605
-        ],
-        "segmentIndex": 0,
-        "x0": 620,
-        "x1": 620,
-        "y0": 585,
-        "y1": 605
-      },
-      {
-        "net": "",
-        "primitiveId": "ec202ffadcdfeea4",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          930,
-          585,
-          930,
-          605
-        ],
-        "segmentIndex": 0,
-        "x0": 930,
-        "x1": 930,
-        "y0": 585,
-        "y1": 605
-      },
-      {
-        "net": "",
-        "primitiveId": "7fe349f414d392e8",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          930,
-          655,
-          930,
-          635
-        ],
-        "segmentIndex": 0,
-        "x0": 930,
-        "x1": 930,
-        "y0": 655,
-        "y1": 635
-      },
-      {
-        "net": "",
-        "primitiveId": "06a76f64f6819a03",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          800,
-          620,
-          820,
-          620
-        ],
-        "segmentIndex": 0,
-        "x0": 800,
-        "x1": 820,
-        "y0": 620,
-        "y1": 620
-      },
-      {
-        "net": "",
-        "primitiveId": "f1c4e336d6b4f632",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          880,
-          620,
-          860,
-          620
-        ],
-        "segmentIndex": 0,
-        "x0": 880,
-        "x1": 860,
-        "y0": 620,
-        "y1": 620
-      },
-      {
-        "net": "",
-        "primitiveId": "c0a3fb8db9743e8c",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          580,
-          660,
-          580,
-          620
-        ],
-        "segmentIndex": 0,
-        "x0": 580,
-        "x1": 580,
-        "y0": 660,
-        "y1": 620
-      },
-      {
-        "net": "",
-        "primitiveId": "758134a171005920",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          580,
-          540,
-          580,
-          580
-        ],
-        "segmentIndex": 0,
-        "x0": 580,
-        "x1": 580,
-        "y0": 540,
-        "y1": 580
-      },
-      {
-        "net": "",
-        "primitiveId": "6fcd494564fbe8e3",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          660,
-          620,
-          680,
-          620
-        ],
-        "segmentIndex": 0,
-        "x0": 660,
-        "x1": 680,
-        "y0": 620,
-        "y1": 620
-      },
-      {
-        "net": "",
-        "primitiveId": "a53a1792b2669750",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          620,
-          630,
-          680,
-          630
-        ],
-        "segmentIndex": 0,
-        "x0": 620,
-        "x1": 680,
-        "y0": 630,
-        "y1": 630
-      },
-      {
-        "net": "",
-        "primitiveId": "03aea805a92d50a7",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          965,
-          610,
-          760,
-          610
-        ],
-        "segmentIndex": 0,
-        "x0": 965,
-        "x1": 760,
-        "y0": 610,
-        "y1": 610
-      },
-      {
-        "net": "",
-        "primitiveId": "de8d6534cd4d2a08",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          930,
-          630,
-          760,
-          630
-        ],
-        "segmentIndex": 0,
-        "x0": 930,
-        "x1": 760,
-        "y0": 630,
-        "y1": 630
-      },
-      {
-        "net": "",
-        "primitiveId": "efbf17e02b4085f5",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          620,
-          610,
-          680,
-          610
-        ],
-        "segmentIndex": 0,
-        "x0": 620,
-        "x1": 680,
-        "y0": 610,
-        "y1": 610
-      },
-      {
-        "net": "",
-        "primitiveId": "6e41924278920b66",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          820,
-          300,
-          820,
-          540
-        ],
-        "segmentIndex": 0,
-        "x0": 820,
-        "x1": 820,
-        "y0": 300,
-        "y1": 540
-      },
-      {
-        "net": "",
-        "primitiveId": "e7a480b6bc7a0c91",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          820,
-          600,
-          820,
-          580
-        ],
-        "segmentIndex": 0,
-        "x0": 820,
-        "x1": 820,
-        "y0": 600,
-        "y1": 580
-      },
-      {
-        "net": "",
-        "primitiveId": "24270ac8d9092190",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          900,
-          640,
-          900,
-          660
-        ],
-        "segmentIndex": 0,
-        "x0": 900,
-        "x1": 900,
-        "y0": 640,
-        "y1": 660
-      },
-      {
-        "net": "",
-        "primitiveId": "5e2016e6522e9cb0",
-        "rawEncoding": "flat-segments",
-        "rawLine": [
-          900,
+          980,
           720,
-          900,
-          700
+          1000,
+          720
         ],
         "segmentIndex": 0,
-        "x0": 900,
-        "x1": 900,
+        "x0": 980,
+        "x1": 1000,
         "y0": 720,
-        "y1": 700
+        "y1": 720
       }
     ],
     "wiresAvailable": true
@@ -6575,6 +6791,6 @@
     "documentType": "schematic",
     "tabId": "87ed546cd346712f@d4435281a735090be6d4aa090ecbf2c0b3f457638362c94d712ae3b373abf430"
   },
-  "seq": 3463,
+  "seq": 2676,
   "seqAbandoned": 0
 }

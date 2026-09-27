@@ -48,7 +48,11 @@ def main():
         if d not in ('F1','F2','F3'):
             if c.get('manufacturerId') != e['mpn'] or c.get('supplierId') != e['lcsc']: raise AssertionError(f'{d} identity mismatch')
             if c.get('footprint',{}).get('name') != e['footprint']: raise AssertionError(f'{d} footprint mismatch')
+            if d.startswith('C') and d != 'C9':
+                got_value = c.get('otherProperty',{}).get('Value')
+                if got_value != e.get('value'): raise AssertionError(f'{d} formal Value mismatch: {got_value!r}')
     print('PASS frozen component identities')
+    print('PASS C1-C8 formal library values')
     for d in ('F1','F2','F3'):
         c = cmap[d]; props = c.get('otherProperty',{})
         for k,v in (('Value','TBD_MEASURE'),('STATUS','TBD_MEASURE'),('RATING','TBD_MEASURE'),('DO_NOT_RELEASE_TO_PCB','TRUE')):
@@ -63,6 +67,18 @@ def main():
         print(f'PASS {d} feedback calculation = {value:.3f} V')
     print('PASS no anonymous nets')
     print('PASS no unexpected nets')
+    waiver = load(HERE / '01_POWER_DRC_WAIVERS.json')
+    allowed = {w['net'] for w in waiver['waivers']}
+    if allowed != {'PUMP_FUSE_OUT','SCALE_5V','USB_5V'}: raise AssertionError('DRC waiver whitelist mismatch')
+    drc_text = (HERE / '01_17_LIVE_DRC.txt').read_text(encoding='utf-8')
+    import re
+    m = re.search(r'Fatal\s*=\s*(\d+).*?Error\s*=\s*(\d+).*?Warning\s*=\s*(\d+)', drc_text, re.S)
+    if not m: raise AssertionError('unparseable live DRC evidence')
+    fatal, errors, warnings = map(int, m.groups())
+    if fatal != 0 or errors != 0: raise AssertionError(f'DRC fatal/error gate: {fatal}/{errors}')
+    found = {n for n in allowed if n in drc_text}
+    if warnings != 3 or found != allowed: raise AssertionError(f'DRC whitelist gate warnings={warnings} found={sorted(found)}')
+    print('PASS page DRC fatal/error and exact 3-warning waiver')
     print('01_POWER_GOLDEN_NETLIST = PASS')
 
 if __name__ == '__main__':

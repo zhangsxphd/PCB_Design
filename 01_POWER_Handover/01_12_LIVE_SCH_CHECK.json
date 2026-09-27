@@ -1,0 +1,1135 @@
+{
+  "id": "req_4912",
+  "ok": true,
+  "result": {
+    "passed": false,
+    "summary": {
+      "floatingPins": 0,
+      "componentsWithFloating": 0,
+      "geomNetMismatches": 0,
+      "netMarkerMismatches": 0,
+      "multiNetWires": 0,
+      "wireCrossings": 0,
+      "wireOverPins": 0,
+      "zeroLengthWires": 0,
+      "danglingWires": 0,
+      "duplicateNetMarkers": 0,
+      "titleblockOverlaps": 0,
+      "markerOverlaps": 28,
+      "missingPartitions": 1,
+      "redundantNetMarkers": 0,
+      "foldedNetLabels": 0,
+      "reversedNetFlags": 0,
+      "polarityConventionOutliers": 0,
+      "total": 42
+    },
+    "findings": [
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "U2",
+        "primitiveId": "199d63b2a2183f73",
+        "message": "U2(part) 与 U1_FB(netport) 视觉重叠 6.00×31.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "199d63b2a2183f73",
+          "30cdd4de74ad60a7"
+        ],
+        "bbox": {
+          "minX": 689.5,
+          "minY": 599.5,
+          "maxX": 750.5,
+          "maxY": 640.5
+        },
+        "other": {
+          "primitiveId": "30cdd4de74ad60a7",
+          "componentType": "netport",
+          "net": "U1_FB",
+          "bbox": {
+            "minX": 744.5,
+            "minY": 609.5,
+            "maxX": 755.5,
+            "maxY": 678.5
+          }
+        },
+        "overlapX": 6,
+        "overlapY": 31
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "U2",
+        "primitiveId": "199d63b2a2183f73",
+        "message": "U2(part) 与 3V3(netport) 视觉重叠 17.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "199d63b2a2183f73",
+          "47066620da305f9e"
+        ],
+        "bbox": {
+          "minX": 689.5,
+          "minY": 599.5,
+          "maxX": 750.5,
+          "maxY": 640.5
+        },
+        "other": {
+          "primitiveId": "47066620da305f9e",
+          "componentType": "netport",
+          "net": "3V3",
+          "bbox": {
+            "minX": 733.4999999999999,
+            "minY": 614.5000000000001,
+            "maxX": 790.4999999999999,
+            "maxY": 625.5000000000001
+          }
+        },
+        "overlapX": 17,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "L2",
+        "primitiveId": "1ab15b25fb40029e",
+        "message": "L2(part) 与 U1_FB(netport) 视觉重叠 2.00×4.52 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "1ab15b25fb40029e",
+          "b0078c69471bbff9"
+        ],
+        "bbox": {
+          "minX": 823.5000062498829,
+          "minY": 619.9775000312485,
+          "maxX": 856.5000499996993,
+          "maxY": 624.5000499997003
+        },
+        "other": {
+          "primitiveId": "b0078c69471bbff9",
+          "componentType": "netport",
+          "net": "U1_FB",
+          "bbox": {
+            "minX": 814.5,
+            "minY": 609.5,
+            "maxX": 825.5,
+            "maxY": 678.5
+          }
+        },
+        "overlapX": 2,
+        "overlapY": 4.52
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "R4",
+        "primitiveId": "2053403b61e4b0dc",
+        "message": "R4(part) 与 U2_SW(netport) 视觉重叠 9.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "2053403b61e4b0dc",
+          "3d1f2a50c3e5c401"
+        ],
+        "bbox": {
+          "minX": 575.5,
+          "minY": 589.5,
+          "maxX": 584.5,
+          "maxY": 610.5
+        },
+        "other": {
+          "primitiveId": "3d1f2a50c3e5c401",
+          "componentType": "netport",
+          "net": "U2_SW",
+          "bbox": {
+            "minX": 541.4999999999999,
+            "minY": 604.5000000000001,
+            "maxX": 610.4999999999999,
+            "maxY": 615.5000000000001
+          }
+        },
+        "overlapX": 9,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "R2",
+        "primitiveId": "225b62b2a7a0952c",
+        "message": "R2(part) 与 U1_FB(netport) 视觉重叠 9.00×21.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "225b62b2a7a0952c",
+          "30cdd4de74ad60a7"
+        ],
+        "bbox": {
+          "minX": 745.5,
+          "minY": 619.5,
+          "maxX": 754.5,
+          "maxY": 640.5
+        },
+        "other": {
+          "primitiveId": "30cdd4de74ad60a7",
+          "componentType": "netport",
+          "net": "U1_FB",
+          "bbox": {
+            "minX": 744.5,
+            "minY": 609.5,
+            "maxX": 755.5,
+            "maxY": 678.5
+          }
+        },
+        "overlapX": 9,
+        "overlapY": 21
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "R2",
+        "primitiveId": "225b62b2a7a0952c",
+        "message": "R2(part) 与 3V3(netport) 视觉重叠 9.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "225b62b2a7a0952c",
+          "47066620da305f9e"
+        ],
+        "bbox": {
+          "minX": 745.5,
+          "minY": 619.5,
+          "maxX": 754.5,
+          "maxY": 640.5
+        },
+        "other": {
+          "primitiveId": "47066620da305f9e",
+          "componentType": "netport",
+          "net": "3V3",
+          "bbox": {
+            "minX": 733.4999999999999,
+            "minY": 614.5000000000001,
+            "maxX": 790.4999999999999,
+            "maxY": 625.5000000000001
+          }
+        },
+        "overlapX": 9,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "F3",
+        "primitiveId": "29c89c19b1ee495a",
+        "message": "F3(part) 与 BUCK_5V(netport) 视觉重叠 41.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "29c89c19b1ee495a",
+          "c83be42a7fe5f7d9"
+        ],
+        "bbox": {
+          "minX": 879.5,
+          "minY": 494.5,
+          "maxX": 920.5,
+          "maxY": 505.5
+        },
+        "other": {
+          "primitiveId": "c83be42a7fe5f7d9",
+          "componentType": "netport",
+          "net": "BUCK_5V",
+          "bbox": {
+            "minX": 879.4999999999999,
+            "minY": 494.5,
+            "maxX": 960.4999999999999,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 41,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "30cdd4de74ad60a7",
+        "markerNet": "U1_FB",
+        "message": "U1_FB(netport) 与 3V3(netport) 视觉重叠 11.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "30cdd4de74ad60a7",
+          "47066620da305f9e"
+        ],
+        "bbox": {
+          "minX": 744.5,
+          "minY": 609.5,
+          "maxX": 755.5,
+          "maxY": 678.5
+        },
+        "other": {
+          "primitiveId": "47066620da305f9e",
+          "componentType": "netport",
+          "net": "3V3",
+          "bbox": {
+            "minX": 733.4999999999999,
+            "minY": 614.5000000000001,
+            "maxX": 790.4999999999999,
+            "maxY": 625.5000000000001
+          }
+        },
+        "overlapX": 11,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "3f0ef736dcdcb3dc",
+        "markerNet": "U1_SW",
+        "message": "U1_SW(netport) 与 LOGIC_5V(netport) 视觉重叠 11.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "3f0ef736dcdcb3dc",
+          "3f46e77353d8956d"
+        ],
+        "bbox": {
+          "minX": 561.4999999999999,
+          "minY": 494.50000000000006,
+          "maxX": 630.4999999999999,
+          "maxY": 505.50000000000006
+        },
+        "other": {
+          "primitiveId": "3f46e77353d8956d",
+          "componentType": "netport",
+          "net": "LOGIC_5V",
+          "bbox": {
+            "minX": 614.5,
+            "minY": 488.4999999999999,
+            "maxX": 625.5,
+            "maxY": 575.4999999999999
+          }
+        },
+        "overlapX": 11,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "3f0ef736dcdcb3dc",
+        "markerNet": "U1_SW",
+        "message": "U1_SW(netport) 与 U2_FB(netport) 视觉重叠 11.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "3f0ef736dcdcb3dc",
+          "e11bd2b2b8eb0c31"
+        ],
+        "bbox": {
+          "minX": 561.4999999999999,
+          "minY": 494.50000000000006,
+          "maxX": 630.4999999999999,
+          "maxY": 505.50000000000006
+        },
+        "other": {
+          "primitiveId": "e11bd2b2b8eb0c31",
+          "componentType": "netport",
+          "net": "U2_FB",
+          "bbox": {
+            "minX": 574.5,
+            "minY": 461.4999999999999,
+            "maxX": 585.5,
+            "maxY": 530.4999999999999
+          }
+        },
+        "overlapX": 11,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "4ea004f0203fe82d",
+        "markerNet": "12V_IN",
+        "message": "12V_IN(netport) 与 F1_OUT(netport) 视觉重叠 49.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "4ea004f0203fe82d",
+          "88d0ccd39122bd4c"
+        ],
+        "bbox": {
+          "minX": 129.5,
+          "minY": 489.5,
+          "maxX": 204.5,
+          "maxY": 500.5
+        },
+        "other": {
+          "primitiveId": "88d0ccd39122bd4c",
+          "componentType": "netport",
+          "net": "F1_OUT",
+          "bbox": {
+            "minX": 155.5,
+            "minY": 494.50000000000006,
+            "maxX": 230.5,
+            "maxY": 505.50000000000006
+          }
+        },
+        "overlapX": 49,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "4ea004f0203fe82d",
+        "markerNet": "12V_IN",
+        "message": "12V_IN(netport) 与 GND(netflag) 视觉重叠 10.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "4ea004f0203fe82d",
+          "9e48254f10a9ad81"
+        ],
+        "bbox": {
+          "minX": 129.5,
+          "minY": 489.5,
+          "maxX": 204.5,
+          "maxY": 500.5
+        },
+        "other": {
+          "primitiveId": "9e48254f10a9ad81",
+          "componentType": "netflag",
+          "net": "GND",
+          "bbox": {
+            "minX": 102,
+            "minY": 494.5,
+            "maxX": 139.5,
+            "maxY": 517
+          }
+        },
+        "overlapX": 10,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "4ea004f0203fe82d",
+        "markerNet": "12V_IN",
+        "message": "12V_IN(netport) 与 F1(part) 视觉重叠 41.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "4ea004f0203fe82d",
+          "dd1a25fddb55adba"
+        ],
+        "bbox": {
+          "minX": 129.5,
+          "minY": 489.5,
+          "maxX": 204.5,
+          "maxY": 500.5
+        },
+        "other": {
+          "primitiveId": "dd1a25fddb55adba",
+          "componentType": "part",
+          "designator": "F1",
+          "bbox": {
+            "minX": 159.5,
+            "minY": 494.5,
+            "maxX": 200.5,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 41,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "572728e2e43ff46e",
+        "markerNet": "12V_PROTECTED",
+        "message": "12V_PROTECTED(netport) 与 GND(netflag) 视觉重叠 16.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "572728e2e43ff46e",
+          "87b2bb5bc0d90664"
+        ],
+        "bbox": {
+          "minX": 329.5,
+          "minY": 494.5,
+          "maxX": 446.5,
+          "maxY": 505.5
+        },
+        "other": {
+          "primitiveId": "87b2bb5bc0d90664",
+          "componentType": "netflag",
+          "net": "GND",
+          "bbox": {
+            "minX": 430.5,
+            "minY": 499.5,
+            "maxX": 468,
+            "maxY": 522
+          }
+        },
+        "overlapX": 16,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "572728e2e43ff46e",
+        "markerNet": "12V_PROTECTED",
+        "message": "12V_PROTECTED(netport) 与 U1_SW(netport) 视觉重叠 69.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "572728e2e43ff46e",
+          "9848bb7b03b9a579"
+        ],
+        "bbox": {
+          "minX": 329.5,
+          "minY": 494.5,
+          "maxX": 446.5,
+          "maxY": 505.5
+        },
+        "other": {
+          "primitiveId": "9848bb7b03b9a579",
+          "componentType": "netport",
+          "net": "U1_SW",
+          "bbox": {
+            "minX": 371.49999999999994,
+            "minY": 494.50000000000006,
+            "maxX": 440.49999999999994,
+            "maxY": 505.50000000000006
+          }
+        },
+        "overlapX": 69,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "5ea236800cb1b1fe",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 BUCK_5V(netport) 视觉重叠 11.00×22.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "5ea236800cb1b1fe",
+          "7fc1b26aaa496382"
+        ],
+        "bbox": {
+          "minX": 739.5,
+          "minY": 464.5,
+          "maxX": 760.5,
+          "maxY": 486.5
+        },
+        "other": {
+          "primitiveId": "7fc1b26aaa496382",
+          "componentType": "netport",
+          "net": "BUCK_5V",
+          "bbox": {
+            "minX": 744.5,
+            "minY": 429.4999999999999,
+            "maxX": 755.5,
+            "maxY": 510.4999999999999
+          }
+        },
+        "overlapX": 11,
+        "overlapY": 22
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "J1",
+        "primitiveId": "61b8b17f5aa0cdfb",
+        "message": "J1(part) 与 12V_IN(netport) 视觉重叠 21.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "61b8b17f5aa0cdfb",
+          "bcb8264e67640359"
+        ],
+        "bbox": {
+          "minX": 69.5,
+          "minY": 484.5,
+          "maxX": 90.5,
+          "maxY": 515.5
+        },
+        "other": {
+          "primitiveId": "bcb8264e67640359",
+          "componentType": "netport",
+          "net": "12V_IN",
+          "bbox": {
+            "minX": 45.5,
+            "minY": 494.5,
+            "maxX": 120.5,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 21,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "D3",
+        "primitiveId": "63cfd0dc4edf1ce8",
+        "message": "D3(part) 与 SCALE_5V(netport) 视觉重叠 13.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "63cfd0dc4edf1ce8",
+          "79885c318eac3029"
+        ],
+        "bbox": {
+          "minX": 1004.5,
+          "minY": 491.4999999999999,
+          "maxX": 1017.5,
+          "maxY": 508.4999999999999
+        },
+        "other": {
+          "primitiveId": "79885c318eac3029",
+          "componentType": "netport",
+          "net": "SCALE_5V",
+          "bbox": {
+            "minX": 964.5,
+            "minY": 494.5,
+            "maxX": 1051.5,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 13,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "63df11fafb67832f",
+        "markerNet": "USB_5V",
+        "message": "USB_5V(netport) 与 3V3(netport) 视觉重叠 11.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "63df11fafb67832f",
+          "8ad4d198cabc1387"
+        ],
+        "bbox": {
+          "minX": 885.4999999999999,
+          "minY": 594.5000000000001,
+          "maxX": 960.4999999999999,
+          "maxY": 605.5000000000001
+        },
+        "other": {
+          "primitiveId": "8ad4d198cabc1387",
+          "componentType": "netport",
+          "net": "3V3",
+          "bbox": {
+            "minX": 894.5,
+            "minY": 573.4999999999999,
+            "maxX": 905.5,
+            "maxY": 630.4999999999999
+          }
+        },
+        "overlapX": 11,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "87b2bb5bc0d90664",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 U1_SW(netport) 视觉重叠 10.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "87b2bb5bc0d90664",
+          "9848bb7b03b9a579"
+        ],
+        "bbox": {
+          "minX": 430.5,
+          "minY": 499.5,
+          "maxX": 468,
+          "maxY": 522
+        },
+        "other": {
+          "primitiveId": "9848bb7b03b9a579",
+          "componentType": "netport",
+          "net": "U1_SW",
+          "bbox": {
+            "minX": 371.49999999999994,
+            "minY": 494.50000000000006,
+            "maxX": 440.49999999999994,
+            "maxY": 505.50000000000006
+          }
+        },
+        "overlapX": 10,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "88d0ccd39122bd4c",
+        "markerNet": "F1_OUT",
+        "message": "F1_OUT(netport) 与 F1(part) 视觉重叠 41.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "88d0ccd39122bd4c",
+          "dd1a25fddb55adba"
+        ],
+        "bbox": {
+          "minX": 155.5,
+          "minY": 494.50000000000006,
+          "maxX": 230.5,
+          "maxY": 505.50000000000006
+        },
+        "other": {
+          "primitiveId": "dd1a25fddb55adba",
+          "componentType": "part",
+          "designator": "F1",
+          "bbox": {
+            "minX": 159.5,
+            "minY": 494.5,
+            "maxX": 200.5,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 41,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "8ad4d198cabc1387",
+        "markerNet": "3V3",
+        "message": "3V3(netport) 与 U2_SW(netport) 视觉重叠 11.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "8ad4d198cabc1387",
+          "d9e19fdf39d13bff"
+        ],
+        "bbox": {
+          "minX": 894.5,
+          "minY": 573.4999999999999,
+          "maxX": 905.5,
+          "maxY": 630.4999999999999
+        },
+        "other": {
+          "primitiveId": "d9e19fdf39d13bff",
+          "componentType": "netport",
+          "net": "U2_SW",
+          "bbox": {
+            "minX": 889.5,
+            "minY": 614.5,
+            "maxX": 958.5,
+            "maxY": 625.5
+          }
+        },
+        "overlapX": 11,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "9b6a2c4c87879966",
+        "markerNet": "LOGIC_5V",
+        "message": "LOGIC_5V(netport) 与 D4(part) 视觉重叠 13.00×4.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "9b6a2c4c87879966",
+          "a78dbc584538416a"
+        ],
+        "bbox": {
+          "minX": 974.5,
+          "minY": 604.5,
+          "maxX": 1061.5,
+          "maxY": 615.5
+        },
+        "other": {
+          "primitiveId": "a78dbc584538416a",
+          "componentType": "part",
+          "designator": "D4",
+          "bbox": {
+            "minX": 1004.5,
+            "minY": 591.4999999999999,
+            "maxX": 1017.5,
+            "maxY": 608.4999999999999
+          }
+        },
+        "overlapX": 13,
+        "overlapY": 4
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "9e48254f10a9ad81",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 12V_IN(netport) 视觉重叠 18.50×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "9e48254f10a9ad81",
+          "bcb8264e67640359"
+        ],
+        "bbox": {
+          "minX": 102,
+          "minY": 494.5,
+          "maxX": 139.5,
+          "maxY": 517
+        },
+        "other": {
+          "primitiveId": "bcb8264e67640359",
+          "componentType": "netport",
+          "net": "12V_IN",
+          "bbox": {
+            "minX": 45.5,
+            "minY": 494.5,
+            "maxX": 120.5,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 18.5,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "a328bb31c76bf768",
+        "markerNet": "12V_PROTECTED",
+        "message": "12V_PROTECTED(netport) 与 GND(netflag) 视觉重叠 21.00×7.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "a328bb31c76bf768",
+          "beaee93b9b5b9021"
+        ],
+        "bbox": {
+          "minX": 323.49999999999994,
+          "minY": 484.50000000000006,
+          "maxX": 440.49999999999994,
+          "maxY": 495.50000000000006
+        },
+        "other": {
+          "primitiveId": "beaee93b9b5b9021",
+          "componentType": "netflag",
+          "net": "GND",
+          "bbox": {
+            "minX": 419.49999999999994,
+            "minY": 469.50000000000006,
+            "maxX": 440.49999999999994,
+            "maxY": 491.50000000000006
+          }
+        },
+        "overlapX": 21,
+        "overlapY": 7
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "c2d8fe06bd8c8e1f",
+        "markerNet": "BUCK_5V",
+        "message": "BUCK_5V(netport) 与 BUCK_5V(netport) 视觉重叠 51.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "c2d8fe06bd8c8e1f",
+          "ee54815ab29015b3"
+        ],
+        "bbox": {
+          "minX": 789.5,
+          "minY": 494.5,
+          "maxX": 870.5,
+          "maxY": 505.5
+        },
+        "other": {
+          "primitiveId": "ee54815ab29015b3",
+          "componentType": "netport",
+          "net": "BUCK_5V",
+          "bbox": {
+            "minX": 759.4999999999999,
+            "minY": 494.5,
+            "maxX": 840.4999999999999,
+            "maxY": 505.5
+          }
+        },
+        "overlapX": 51,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "C7",
+        "primitiveId": "d65f4bcd933702f3",
+        "message": "C7(part) 与 U2_SW(netport) 视觉重叠 17.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "d65f4bcd933702f3",
+          "d9e19fdf39d13bff"
+        ],
+        "bbox": {
+          "minX": 921.5,
+          "minY": 614.5,
+          "maxX": 938.5,
+          "maxY": 625.5
+        },
+        "other": {
+          "primitiveId": "d9e19fdf39d13bff",
+          "componentType": "netport",
+          "net": "U2_SW",
+          "bbox": {
+            "minX": 889.5,
+            "minY": 614.5,
+            "maxX": 958.5,
+            "maxY": 625.5
+          }
+        },
+        "overlapX": 17,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "d6bb954513ac7d19",
+        "markerNet": "F1_OUT",
+        "message": "F1_OUT(netport) 与 D1(part) 视觉重叠 13.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "d6bb954513ac7d19",
+          "f0cdfc214d014700"
+        ],
+        "bbox": {
+          "minX": 239.5,
+          "minY": 494.5,
+          "maxX": 314.5,
+          "maxY": 505.5
+        },
+        "other": {
+          "primitiveId": "f0cdfc214d014700",
+          "componentType": "part",
+          "designator": "D1",
+          "bbox": {
+            "minX": 274.5,
+            "minY": 491.5,
+            "maxX": 287.5,
+            "maxY": 508.5
+          }
+        },
+        "overlapX": 13,
+        "overlapY": 11
+      },
+      {
+        "type": "wire-through-body",
+        "level": "ERROR",
+        "designator": "U2",
+        "primitiveId": "199d63b2a2183f73",
+        "wirePrimitiveId": "ee74d7d669e1b042",
+        "message": "wire segment 0 (750,610)→(750,600) enters component body",
+        "at": {
+          "x": 750,
+          "y": 610
+        },
+        "bbox": {
+          "minX": 689.5,
+          "minY": 599.5,
+          "maxX": 750.5,
+          "maxY": 640.5
+        }
+      },
+      {
+        "type": "wire-through-body",
+        "level": "ERROR",
+        "designator": "U2",
+        "primitiveId": "199d63b2a2183f73",
+        "wirePrimitiveId": "ee74d7d669e1b042",
+        "message": "wire segment 0 (750,600)→(750,580) enters component body",
+        "at": {
+          "x": 750,
+          "y": 600
+        },
+        "bbox": {
+          "minX": 689.5,
+          "minY": 599.5,
+          "maxX": 750.5,
+          "maxY": 640.5
+        }
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "L2",
+        "primitiveId": "0d2bac93da80b985",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "0d2bac93da80b985",
+          "b0078c69471bbff9"
+        ],
+        "bbox": {
+          "minX": 825,
+          "minY": 625,
+          "maxX": 831.5736999511719,
+          "maxY": 631.75
+        },
+        "overlapX": 0.5,
+        "overlapY": 6.75
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "L2",
+        "primitiveId": "0d2bac93da80b985",
+        "wirePrimitiveId": "de8d6534cd4d2a08",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 825,
+          "minY": 625,
+          "maxX": 831.5736999511719,
+          "maxY": 631.75
+        }
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "R2",
+        "primitiveId": "169342d4c1c1efcb",
+        "wirePrimitiveId": "de8d6534cd4d2a08",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 760,
+          "minY": 630,
+          "maxX": 768.9482421875,
+          "maxY": 638
+        }
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "C6",
+        "primitiveId": "36a7d3ce2f914e18",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "36a7d3ce2f914e18",
+          "13f85dbf9117cd83"
+        ],
+        "bbox": {
+          "minX": 635,
+          "minY": 615,
+          "maxX": 643.9482421875,
+          "maxY": 623
+        },
+        "overlapX": 3.4482421875,
+        "overlapY": 8
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "F1",
+        "primitiveId": "5ed6cb6142675f48",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "5ed6cb6142675f48",
+          "88d0ccd39122bd4c"
+        ],
+        "bbox": {
+          "minX": 160,
+          "minY": 505,
+          "maxX": 168.1689453125,
+          "maxY": 513
+        },
+        "overlapX": 8.1689453125,
+        "overlapY": 0.5000000000000568
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "F3",
+        "primitiveId": "6b7b55d289e0b8e3",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "6b7b55d289e0b8e3",
+          "c83be42a7fe5f7d9"
+        ],
+        "bbox": {
+          "minX": 880,
+          "minY": 505,
+          "maxX": 888.1689453125,
+          "maxY": 513
+        },
+        "overlapX": 8.1689453125,
+        "overlapY": 0.5
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "F3",
+        "primitiveId": "6b7b55d289e0b8e3",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "6b7b55d289e0b8e3",
+          "ebcd42ea9beb7a7a"
+        ],
+        "bbox": {
+          "minX": 880,
+          "minY": 505,
+          "maxX": 888.1689453125,
+          "maxY": 513
+        },
+        "overlapX": 8.1689453125,
+        "overlapY": 8
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "R4",
+        "primitiveId": "74ebaba044ba8acb",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "74ebaba044ba8acb",
+          "3d1f2a50c3e5c401"
+        ],
+        "bbox": {
+          "minX": 590,
+          "minY": 600,
+          "maxX": 598.9482421875,
+          "maxY": 608
+        },
+        "overlapX": 8.9482421875,
+        "overlapY": 3.4999999999998863
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "C7",
+        "primitiveId": "abd1333315d83f9f",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "abd1333315d83f9f",
+          "d9e19fdf39d13bff"
+        ],
+        "bbox": {
+          "minX": 945,
+          "minY": 615,
+          "maxX": 953.9482421875,
+          "maxY": 623
+        },
+        "overlapX": 8.9482421875,
+        "overlapY": 8
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "L1",
+        "primitiveId": "ad094072a93ba13e",
+        "wirePrimitiveId": "7cb78bf983a6e36d",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 665,
+          "minY": 505,
+          "maxX": 672.7861328125,
+          "maxY": 513
+        }
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "D4",
+        "primitiveId": "ecd797855310cce1",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "ecd797855310cce1",
+          "9b6a2c4c87879966"
+        ],
+        "bbox": {
+          "minX": 1005,
+          "minY": 610,
+          "maxX": 1013.9482421875,
+          "maxY": 618
+        },
+        "overlapX": 8.9482421875,
+        "overlapY": 5.5
+      },
+      {
+        "type": "missing-partition",
+        "level": "warn",
+        "count": 25,
+        "message": "25 个器件的页没有功能分区框 — 铁律#15:`sch zones set` → `sch zone-draw`(整纸版式 `--mode partition`);交付前必须有"
+      }
+    ]
+  },
+  "type": "response",
+  "version": "v1"
+}

@@ -1,11 +1,19 @@
 {
   "schemaVersion": 2,
-  "ok": true,
+  "ok": false,
   "minGap": 2.54,
   "componentCount": 25,
   "withBBox": 25,
-  "skippedNonParts": 59,
-  "overlaps": null,
+  "skippedNonParts": 56,
+  "overlaps": [
+    {
+      "a": "R2",
+      "b": "U2",
+      "overlapX": 1.27,
+      "overlapY": 5.334,
+      "type": "overlap"
+    }
+  ],
   "tightSpacing": null,
   "pinCoincidences": null,
   "measurementUnit": "mm",
@@ -15,5 +23,5 @@
   "zoneCheckStatus": "not-configured",
   "sheetCheckStatus": "checked",
   "pinEps": 0,
-  "summary": "strict=false: 25 components (25 with bbox): 0 overlap, 0 tight (\u003c2.54mm), 0 pin-coincidence, 0 off-grid, 0 out-of-sheet, 0 unchecked-bbox, 0 unchecked-pins, 0 unproven-pins, 0 nets-unproven, 0 invalid-geometry; zoneCheck=not-configured sheetCheck=checked"
+  "summary": "strict=false: 25 components (25 with bbox): 1 overlap, 0 tight (\u003c2.54mm), 0 pin-coincidence, 0 off-grid, 0 out-of-sheet, 0 unchecked-bbox, 0 unchecked-pins, 0 unproven-pins, 0 nets-unproven, 0 invalid-geometry; zoneCheck=not-configured sheetCheck=checked"
 }
