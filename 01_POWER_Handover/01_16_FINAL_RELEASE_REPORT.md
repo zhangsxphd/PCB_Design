@@ -9,6 +9,7 @@
 - Layout lint: NOT CLEARED — 1 component overlap (R2/U2).
 - Schematic release: FAIL/PENDING visual cleanup gates.
 - Artifact verification: PASS (`01_15_FINAL_VERIFY.txt`).
+- GitHub Actions `verify-power-handover`: PASS on commit `e89a9ed`.
 - PCB release: BLOCKED by `PCB_RELEASE_BLOCKERS.md`.
 
 This handover contains one native EasyEDA project archive only. PCB and `02_ESP32_USB` were not modified.
