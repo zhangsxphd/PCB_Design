@@ -2,3 +2,6 @@
 tmp/
 __pycache__/
 *.py[cod]
+work/
+.easyeda/
+.DS_Store
