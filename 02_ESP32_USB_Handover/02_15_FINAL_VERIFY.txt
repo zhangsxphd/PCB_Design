@@ -1,0 +1,23 @@
+PASS exact allowed net-name set
+PASS exact Golden Netlist pin sets
+PASS exact NC set
+PASS U1.5 true NC
+PASS no other NC
+PASS D1 polarity
+PASS D2 polarity
+PASS D3 polarity
+PASS D4 polarity
+PASS frozen component identities
+PASS C1-C8 formal library values
+PASS F1 exclusion
+PASS F2 exclusion
+PASS F3 exclusion
+PASS C9 DNP assembly gate
+PASS U1 feedback calculation = 5.077 V
+PASS U2 feedback calculation = 3.318 V
+PASS no anonymous nets
+PASS no unexpected nets
+PASS page DRC fatal/error and exact 3-warning waiver
+01_POWER_GOLDEN_NETLIST = PASS
+PASS Page-02 electrical snapshot: 30 parts, 28 nets, 113 pin connections
+PASS Golden Netlist, identities, GPIO/USB/CC/EN/BOOT/ADC/NC, bridge and electrical checks

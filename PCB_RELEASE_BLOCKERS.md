@@ -8,4 +8,4 @@ PCB release is intentionally blocked. Do not create or update PCB from this hand
 4. Confirm L1/L2 saturation/current/thermal margins in the final enclosure and switching-frequency conditions.
 5. Resolve remaining EasyEDA visual marker/cluster diagnostics before claiming schematic release completeness.
 
-`02_ESP32_USB` and all PCB work are out of scope for this release.
+Page-02 PCB blockers are tracked in `02_ESP32_USB_Handover/02_04_PCB_RELEASE_BLOCKERS.md`. No PCB work has been performed.

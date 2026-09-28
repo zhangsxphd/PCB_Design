@@ -1,0 +1,7 @@
+{
+  "waivers": [],
+  "reason": "Native EasyEDA DRC reported 30 aggregate warnings without per-item details; no warning can be safely attributed to a named net.",
+  "observedProjectSinglePinFutureInterfaces": ["EXP_UART_RX", "EXP_UART_TX", "SCALE_RX", "SCALE_TX"],
+  "source": "02_17_LIVE_DRC.json and 02_18_PROJECT_NETS.json",
+  "releaseDisposition": "BLOCKED_PENDING_ITEMIZED_DRC"
+}

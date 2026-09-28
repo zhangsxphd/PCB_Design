@@ -1,0 +1,127 @@
+{
+  "id": "req_2350",
+  "ok": true,
+  "result": {
+    "passed": false,
+    "summary": {
+      "floatingPins": 0,
+      "componentsWithFloating": 0,
+      "geomNetMismatches": 0,
+      "netMarkerMismatches": 0,
+      "multiNetWires": 0,
+      "wireCrossings": 9,
+      "wireOverPins": 0,
+      "zeroLengthWires": 0,
+      "danglingWires": 0,
+      "duplicateNetMarkers": 0,
+      "titleblockOverlaps": 0,
+      "markerOverlaps": 0,
+      "missingPartitions": 1,
+      "redundantNetMarkers": 0,
+      "foldedNetLabels": 0,
+      "reversedNetFlags": 0,
+      "polarityConventionOutliers": 0,
+      "total": 10
+    },
+    "findings": [
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 335,
+          "y": 610
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 335,
+          "y": 600
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 935,
+          "y": 690
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 940,
+          "y": 670
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 945,
+          "y": 660
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 760,
+          "y": 640
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 890,
+          "y": 740
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 985,
+          "y": 405
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 980,
+          "y": 350
+        }
+      },
+      {
+        "type": "missing-partition",
+        "level": "warn",
+        "count": 30,
+        "message": "30 个器件的页已分成 6 个功能模块(虚拟组/认领)但一个分区框都没画 — 铁律#15:`sch zone-draw --mode partition`;被拒(partitionOverlap / titleBlockHits)就先跑 `sch zone-plan` 看逐条 ✗ —— 它点名是哪两个区顶住、还差多少,并给出一条 `sch zone move --zone \u003c区\u003e --dx/--dy \u003c量\u003e` 的最小挪动;挪完再画,整页重排 `sch zone-arrange --apply` 或拆页是最后一档"
+      }
+    ]
+  },
+  "type": "response",
+  "version": "v1"
+}

@@ -1,0 +1,423 @@
+{
+  "ok": true,
+  "totalNets": 39,
+  "singlePinNets": [
+    {
+      "net": "EXP_UART_RX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "EXP_UART_TX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "PUMP_FUSE_OUT",
+      "pins": 1,
+      "parts": [
+        "F2"
+      ]
+    },
+    {
+      "net": "SCALE_5V",
+      "pins": 1,
+      "parts": [
+        "F3"
+      ]
+    },
+    {
+      "net": "SCALE_RX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "SCALE_TX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "net": "12V_IN",
+      "pins": 2,
+      "parts": [
+        "F1",
+        "J1"
+      ]
+    },
+    {
+      "net": "12V_PROTECTED",
+      "pins": 8,
+      "parts": [
+        "C1",
+        "C2",
+        "C9",
+        "D1",
+        "D2",
+        "F2",
+        "R18",
+        "U1"
+      ]
+    },
+    {
+      "net": "3V3",
+      "pins": 12,
+      "parts": [
+        "C10",
+        "C11",
+        "C7",
+        "L2",
+        "R10",
+        "R11",
+        "R12",
+        "R16",
+        "R17",
+        "R3",
+        "R9",
+        "U3"
+      ]
+    },
+    {
+      "net": "ADC_12V_SENSE",
+      "pins": 4,
+      "parts": [
+        "C17",
+        "R18",
+        "R19",
+        "U3"
+      ]
+    },
+    {
+      "net": "BUCK_5V",
+      "pins": 7,
+      "parts": [
+        "C4",
+        "C5",
+        "C8",
+        "D3",
+        "F3",
+        "L1",
+        "R1"
+      ]
+    },
+    {
+      "net": "CC1",
+      "pins": 2,
+      "parts": [
+        "J2",
+        "R5"
+      ]
+    },
+    {
+      "net": "CC2",
+      "pins": 2,
+      "parts": [
+        "J2",
+        "R6"
+      ]
+    },
+    {
+      "net": "CHIP_EN",
+      "pins": 4,
+      "parts": [
+        "C12",
+        "R9",
+        "SW1",
+        "U3"
+      ]
+    },
+    {
+      "net": "EXP_UART_RX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "EXP_UART_TX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "F1_OUT",
+      "pins": 2,
+      "parts": [
+        "D1",
+        "F1"
+      ]
+    },
+    {
+      "net": "GND",
+      "pins": 58,
+      "parts": [
+        "C1",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C2",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C9",
+        "D2",
+        "J1",
+        "J2",
+        "LED1",
+        "LED2",
+        "R15",
+        "R19",
+        "R2",
+        "R4",
+        "R5",
+        "R6",
+        "SW1",
+        "SW2",
+        "U1",
+        "U2",
+        "U3",
+        "U4"
+      ]
+    },
+    {
+      "net": "GPIO2_STRAP",
+      "pins": 2,
+      "parts": [
+        "R10",
+        "U3"
+      ]
+    },
+    {
+      "net": "GPIO8_STRAP",
+      "pins": 2,
+      "parts": [
+        "R11",
+        "U3"
+      ]
+    },
+    {
+      "net": "GPIO9_BOOT",
+      "pins": 3,
+      "parts": [
+        "R12",
+        "SW2",
+        "U3"
+      ]
+    },
+    {
+      "net": "LOGIC_5V",
+      "pins": 5,
+      "parts": [
+        "C6",
+        "D3",
+        "D4",
+        "U2"
+      ]
+    },
+    {
+      "net": "PUMP_EN",
+      "pins": 2,
+      "parts": [
+        "R15",
+        "U3"
+      ]
+    },
+    {
+      "net": "PUMP_FUSE_OUT",
+      "pins": 1,
+      "parts": [
+        "F2"
+      ]
+    },
+    {
+      "net": "PUMP_LED",
+      "pins": 2,
+      "parts": [
+        "R14",
+        "U3"
+      ]
+    },
+    {
+      "net": "PUMP_LED_A",
+      "pins": 2,
+      "parts": [
+        "LED2",
+        "R14"
+      ]
+    },
+    {
+      "net": "RUN_LED",
+      "pins": 2,
+      "parts": [
+        "R13",
+        "U3"
+      ]
+    },
+    {
+      "net": "RUN_LED_A",
+      "pins": 2,
+      "parts": [
+        "LED1",
+        "R13"
+      ]
+    },
+    {
+      "net": "SCALE_5V",
+      "pins": 1,
+      "parts": [
+        "F3"
+      ]
+    },
+    {
+      "net": "SCALE_RX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "SCALE_TX",
+      "pins": 1,
+      "parts": [
+        "U3"
+      ]
+    },
+    {
+      "net": "SCL",
+      "pins": 2,
+      "parts": [
+        "R17",
+        "U3"
+      ]
+    },
+    {
+      "net": "SDA",
+      "pins": 2,
+      "parts": [
+        "R16",
+        "U3"
+      ]
+    },
+    {
+      "net": "U1_BOOT",
+      "pins": 2,
+      "parts": [
+        "C3",
+        "U1"
+      ]
+    },
+    {
+      "net": "U1_FB",
+      "pins": 4,
+      "parts": [
+        "C8",
+        "R1",
+        "R2",
+        "U1"
+      ]
+    },
+    {
+      "net": "U1_SW",
+      "pins": 3,
+      "parts": [
+        "C3",
+        "L1",
+        "U1"
+      ]
+    },
+    {
+      "net": "U2_FB",
+      "pins": 3,
+      "parts": [
+        "R3",
+        "R4",
+        "U2"
+      ]
+    },
+    {
+      "net": "U2_SW",
+      "pins": 2,
+      "parts": [
+        "L2",
+        "U2"
+      ]
+    },
+    {
+      "net": "USB_5V",
+      "pins": 6,
+      "parts": [
+        "C15",
+        "C16",
+        "D4",
+        "J2",
+        "U4"
+      ]
+    },
+    {
+      "net": "USB_DM_ESD",
+      "pins": 2,
+      "parts": [
+        "R7",
+        "U4"
+      ]
+    },
+    {
+      "net": "USB_DM_MCU",
+      "pins": 3,
+      "parts": [
+        "C13",
+        "R7",
+        "U3"
+      ]
+    },
+    {
+      "net": "USB_DM_PORT",
+      "pins": 3,
+      "parts": [
+        "J2",
+        "U4"
+      ]
+    },
+    {
+      "net": "USB_DP_ESD",
+      "pins": 2,
+      "parts": [
+        "R8",
+        "U4"
+      ]
+    },
+    {
+      "net": "USB_DP_MCU",
+      "pins": 3,
+      "parts": [
+        "C14",
+        "R8",
+        "U3"
+      ]
+    },
+    {
+      "net": "USB_DP_PORT",
+      "pins": 3,
+      "parts": [
+        "J2",
+        "U4"
+      ]
+    }
+  ]
+}
